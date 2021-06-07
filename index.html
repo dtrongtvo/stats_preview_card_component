@@ -11,36 +11,47 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <div class="card">
-      <div class="card__text">
-        <h1>Get <span>insights</span> that help your business grow</h1>
-        <p>
-          Discover the beneifts of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <div class="card__stats">
-          <div class="card__item">
-            <h2>10k+</h2>
-            <p>companies</p>
-          </div>
-          <div class="card__item">
-            <h2>314</h2>
-            <p>templates</p>
-          </div>
-          <div class="card__item">
-            <h2>12M+</h2>
-            <p>queries</p>
+    <div class="section">
+      <div class="Card flex-column-reverse flex-lg-row">
+        <div class="Card__text">
+          <h1>Get <span>insights</span> that help your business grow</h1>
+          <p>
+            Discover the beneifts of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="Card__stats">
+            <div class="Card__item">
+              <h2>10k+</h2>
+              <p>companies</p>
+            </div>
+            <div class="Card__item">
+              <h2>314</h2>
+              <p>templates</p>
+            </div>
+            <div class="Card__item">
+              <h2>12M+</h2>
+              <p>queries</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card__image">
-        <img src="./img/image-header-desktop.jpg" alt="" />
-        <div class="card__overlay"></div>
+        <div class="Card__image">
+          <img src="./img/image-header-desktop.jpg" class="d-none d-lg-inline-block" alt="" />
+          <img src="./img/image-header-mobile.jpg" class="d-lg-none" alt="">
+          <div class="Card__overlay"></div>
+        </div>
       </div>
     </div>
+
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
 </html>
